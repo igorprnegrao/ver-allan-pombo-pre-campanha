@@ -77,36 +77,36 @@ form .btn-enviar input:hover {
 /*-- Estilo do Sobre mim --*/
 
 section.sobre-mim {
-  padding: 80px 4%;
+    padding: 80px 4%;
 }
 
 section.sobre-mim .flex {
-  align-items: center;
-  justify-content: center;
-  gap: 60px;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
 }
 
 .sobre-mim .txt-sobre-mim {
-  color: #fff;
+    color: #fff;
 }
 
 .sobre-mim .txt-sobre-mim h2 {
-  font-size: 40px;
-  line-height: 40px;
-  margin-bottom: 30px;
-  margin-top: 50px;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+    margin-top: 50px;
 }
 
 .sobre-mim .txt-sobre-mim h2 span {
-  color: #fc6c04;
-  display: block;
+    color: #fc6c04;
+    display: block;
 }
 
 .sobre-mim .txt-sobre-mim p {
-  margin: 20px 0;
-  text-align: justify;
-  line-height: 25px;
-  text-indent: 25px;
+    margin: 20px 0;
+    text-align: justify;
+    line-height: 25px;
+    text-indent: 25px;
 }
 
 /*-------- Estilo Rodapé ---------*/
@@ -159,64 +159,64 @@ footer .flex {
 }
 
 #instagram {
-  background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
 }
 #facebook {
-  background-color: #4267b3;
+    background-color: #4267b3;
 }
 #whatsapp {
-  background-color: #25d366;
+    background-color: #25d366;
 }
 #x-twitter {
-  background-color: #000;
+    background-color: #000;
 }
 
 #tiktok {
-  background-color: #000;
+    background-color: #000;
 }
 
 #footer-list {
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-  list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    list-style: none;
 }
 
 .footer-logo-img {
-  position: relative;
-  left: 40px;
+    position: relative;
+    left: 40px;
 }
 
 #footer-list .footer-link {
-  color: #d9d9d9;
-  transition: all 0.4s; /*tempo de transição hover*/
+    color: #d9d9d9;
+    transition: all 0.4s; /*tempo de transição hover*/
 }
 
 #footer-list h3 {
-  color: #fff;
+    color: #fff;
 }
 
 .titulo-h3 {
-  font-size: 23px;
+    font-size: 23px;
 }
 
 .footer-logo-p {
-  color: #fff;
-  font-size: 16px;
-  position: relative;
-  left: 17px;
+    color: #fff;
+    font-size: 16px;
+    position: relative;
+    left: 17px;
 }
 
 #footer-list .footer-link:hover {
-  color: #22a7f5;
+    color: #22a7f5;
 }
 
 #footer-copyright {
-  padding: 20px 0;
-  background-color: #000;
+    padding: 20px 0;
+    background-color: #000;
 }
 
 #footer-copyright p {
-  color: #fff;
-  text-align: center;
+    color: #fff;
+    text-align: center;
 }
