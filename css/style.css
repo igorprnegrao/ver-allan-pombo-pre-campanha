@@ -1,0 +1,519 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url("../images/bg02-site-allan.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.flex {
+    display: flex;
+}
+
+/*------  Estilo CABEÇALHO -----*/
+
+header {
+    padding: 40px 4%;
+}
+
+header .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav.menu-desktop ul li {
+    display: inline-block;
+    padding: 0 25px;
+}
+
+header nav.menu-desktop ul li a {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+header nav.menu-desktop a:hover {
+    transform: scale(1.2);
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.btn-contato button {
+    padding: 10px 40px;
+    font-weight: 600;
+    background-color: #fff;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+button:hover,
+form .btn-enviar input:hover {
+    box-shadow: 0px 0px 8px #fff;
+    transform: scale(1.05);
+}
+
+/*------  faixa Manifesto -----*/
+
+.manifesto-titulo img {
+    align-items: center;
+    width: 230px;
+    margin-left: 500px ;
+}
+
+.manifesto .interface img {
+    align-items: center;
+}
+
+.manifesto {
+    background-color: #1717177c;
+    padding: 30px 8%;
+}
+/*------  Principal Manifesto -----*/
+
+section.principal-manifesto {
+    padding: 40px 4%;
+}
+
+section.principal-manifesto .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.manifesto-text h2  {
+    color: #fff;
+    margin-left: 0px;
+    align-items: center;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+section.principal-manifesto .manifesto-text h2 span {
+    color: #fc6c04;
+}
+
+section.principal-manifesto .manifesto-text p {
+    color: #fff;
+    margin: 20px 0;
+    font-size: 17px;
+    text-align: justify;
+    line-height: 30px;
+    text-indent: 50px;
+}
+
+section.principal-manifesto .manifesto-img img {
+    width: 500px;
+}
+
+/*-------- Estilo Formulario ---------*/
+
+section .formulario {
+    padding: 80px 4%;
+}
+
+form {
+    max-width: 500px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+section.formulario .titulo {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+section.formulario h2 span {
+    color: #fc6c04;
+}
+
+section.formulario h2 {
+    align-items: center;
+    margin-left: 0px;
+}
+
+
+form input {
+    width: 150%;
+    background-color: #fff;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: black;
+    font-size: 18px;
+}
+
+form textarea {
+    width: 150%;
+    background-color: #fff;
+    border: 0;
+    outline: 0;
+    padding: 80px 15px;
+    border-radius: 15px;
+    color: black;
+    font-size: 18px;
+}
+
+form input::placeholder {
+    color: #000;
+}
+
+form textarea::placeholder {
+    color: #000;
+    text-align: left;
+    position: absolute;
+    top: 20px;
+}
+
+form textarea {
+    resize: none;
+    max-height: 200px;
+}
+
+form .btn-enviar {
+    margin-top: 20px;
+    text-align: right;
+   padding: auto;
+}
+
+form .btn-enviar input[type="submit"] {
+    width: 120px;
+    background-color: #fff;
+    color: #000;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.2s;
+    height: 70px;
+    width: 150px;
+    margin-bottom: 50px;
+}
+
+.formulario-campos {
+    align-items: left;
+}
+
+.btn-enviar {
+    position: relative;
+    left: 250px;
+}
+
+/*-------- Estilo Quem assinou ---------*/
+.quem-assinou {
+    border: 2px solid #fff;
+    width: 450px;
+    height: 490px;
+    margin-left: 200px;
+}
+
+.quem-assinou h2 {
+    position: relative;
+    margin-left: 30px;
+    left: 20px;
+    top: 30px;
+}
+
+.quem-assinou h2 {
+    color: #fff;
+}
+
+
+.list-wrapper {
+    background-color: transparent;
+    width: 100%;
+    max-width: 700px;
+    max-height: 400px;
+    overflow-y: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0,0,0, .2);
+    margin-top: 40px;
+}
+
+.list-assinantes {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.list-item {
+    display: flex;
+    border-bottom: 1px solid #fff;
+    padding: 16px;
+    
+}
+
+.list-item__image img {
+    width: 80px;
+    border-radius: 50%;
+}
+
+.list-item__content {
+    padding: 0 20px;
+    
+    flex-grow: 1;
+}
+
+.list-item__name {
+    font-size: 24px;
+    color: #fff;
+    margin: 0;
+}
+.list-item__email {
+    margin: 5px 0 0;
+    color: #fff;
+}
+
+.list-item:hover {
+    background-color: #fc6c04;
+    
+}
+
+.list-item__action {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    opacity: 0;
+    
+}
+
+.list-item:hover .list-item__action {
+    opacity: 0.3;
+}
+
+
+/*News*/
+.heading-1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-left: -48px;
+    color: #fff;
+}
+
+.heading-2 {
+    font-size: 40px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.heading-3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.sub-heading {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #fc6c04;
+    padding-bottom: 10px;
+    margin-left: -48px;
+}
+
+.sub-heading p {
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-right: 10px;
+    color: #fff;
+}
+
+.sub-heading span {
+    color: #e6e6e6;
+    font-weight: 300;
+    border-right: 1px solid #ccc;
+    padding-right: 10px;
+}
+
+.sub-heading .importent {
+    color: #fc6c04;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+/* HOME*/
+
+.home {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 40px;
+}
+
+.home {
+    color: white;
+}
+
+.home-image {
+    width: 100%;
+}
+
+.list {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.list img {
+    width: 100%;
+    height: 80px;
+}
+
+/* Article*/
+
+article > p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    
+}
+
+article {
+    display: grid;
+    grid-template-columns: 2fr;
+    columns: 2 25ch;
+    column-gap: 40px;
+    hyphens: auto;
+    color: white;
+}
+
+
+/*-------- Estilo Rodapé ---------*/
+
+footer {
+padding: 60px 8%;
+    box-shadow: 0 0 40px 10 #ffffff1d;
+    letter-spacing: 1px;
+    background-color: #1717177c;
+}
+
+footer .flex {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-conteudo .footer-logo-contato p {
+    color: #fff;
+}
+
+.footer-conteudo .footer-logo-contato h2 {
+    margin-bottom: 0.75rem;
+}
+
+.footer-social-midia {
+    display: flex;
+    gap: 1rem;
+    font-size: 30px;
+    margin-top: 1.5rem;
+}
+
+.footer-social-midia .footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: #fff;
+    border-radius: 50%;
+    transition: all 0.4s; /*tempo de transição hover*/
+}
+
+.footer-link {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer-social-midia .footer-link:hover {
+    opacity: 0.8;
+}
+
+#instagram {
+  background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+#facebook {
+  background-color: #4267b3;
+}
+#whatsapp {
+  background-color: #25d366;
+}
+#x-twitter {
+  background-color: #000;
+}
+
+#tiktok {
+  background-color: #000;
+}
+
+#footer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  list-style: none;
+}
+
+.footer-logo-img {
+  position: relative;
+  left: 40px;
+}
+
+#footer-list .footer-link {
+  color: #d9d9d9;
+  transition: all 0.4s; /*tempo de transição hover*/
+}
+
+#footer-list h3 {
+  color: #fff;
+}
+
+.titulo-h3 {
+  font-size: 23px;
+}
+
+.footer-logo-p {
+  color: #fff;
+  font-size: 16px;
+  position: relative;
+  left: 17px;
+}
+
+#footer-list .footer-link:hover {
+  color: #22a7f5;
+}
+
+#footer-copyright {
+  padding: 20px 0;
+  background-color: #000;
+}
+
+#footer-copyright p {
+  color: #fff;
+  text-align: center;
+}
