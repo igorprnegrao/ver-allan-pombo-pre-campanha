@@ -186,11 +186,11 @@ form textarea {
 }
 
 form input::placeholder {
-    color: #000;
+    color: #fff;
 }
 
 form textarea::placeholder {
-    color: #000;
+    color: #fff;
     text-align: left;
     position: absolute;
     top: 20px;
@@ -227,6 +227,28 @@ form .btn-enviar input[type="submit"] {
     position: relative;
     left: 250px;
 }
+
+input[type="text"]{
+    background-color: rgba(0, 255, 0, 0.372);
+    color:white;
+    border: 2px solid #fff;
+}
+
+input[type="number"]{
+    background-color: rgba(0, 255, 0, 0.372);
+    color: white;
+    border: 2px solid #fff;
+}
+
+textarea[name="message"]{
+    background-color: rgba(0, 255, 0, 0.372);
+    color:white;
+    border: 2px solid #fff;
+}
+
+
+
+
 
 /*-------- Estilo Quem assinou ---------*/
 .quem-assinou {
