@@ -92,7 +92,7 @@ section.sobre-mim .flex {
 
 .sobre-mim .txt-sobre-mim h2 {
     font-size: 40px;
-    line-height: 40px;
+    line-height: 60px;
     margin-bottom: 30px;
     margin-top: 50px;
 }
@@ -107,6 +107,11 @@ section.sobre-mim .flex {
     text-align: justify;
     line-height: 25px;
     text-indent: 25px;
+}
+
+#img-sobre-mim {
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px 2px #fc6c04;
 }
 
 /*-------- Estilo Rodapé ---------*/
