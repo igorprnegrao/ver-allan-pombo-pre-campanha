@@ -123,7 +123,8 @@ section.bandeiras .txt-bandeiras {
 }
 
 #img-bandeiras {
-    border-radius: 10px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px 2px #fc6c04;
 }
 
 .img-bandeiras {
