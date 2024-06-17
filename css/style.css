@@ -160,7 +160,9 @@ section.formulario h2 {
     margin-left: 0px;
 }
 
-
+form {
+    background: transparent;
+}
 form input {
     width: 150%;
     background-color: #fff;
@@ -202,7 +204,7 @@ form textarea {
 form .btn-enviar {
     margin-top: 20px;
     text-align: right;
-   padding: auto;
+    padding: auto;
 }
 
 form .btn-enviar input[type="submit"] {
@@ -308,7 +310,7 @@ form .btn-enviar input[type="submit"] {
 }
 
 
-/*News*/
+/*Galeria*/
 .heading-1 {
     font-size: 40px;
     text-transform: uppercase;
