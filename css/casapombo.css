@@ -109,6 +109,8 @@ section.casa-pombo .txt-casa-pombo {
 #img-casa-pombo {
     border-radius: 25px;
     box-shadow: 0px 0px 10px 2px #fc6c04;
+    background-color: green;
+
 }
 
 /*-------- Estilo Rodapé ---------*/
