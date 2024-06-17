@@ -96,7 +96,7 @@ section.casa-pombo .txt-casa-pombo {
 }
 
 .casa-pombo .txt-casa-pombo h2 span {
-    color: aqua;
+    color: #fc6c04;
 }
 
 .casa-pombo .txt-casa-pombo p {
@@ -104,6 +104,11 @@ section.casa-pombo .txt-casa-pombo {
     text-align: justify;
     line-height: 25px;
     text-indent: 25px;
+}
+
+#img-casa-pombo {
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px 2px #fc6c04;
 }
 
 /*-------- Estilo Rodapé ---------*/
