@@ -126,6 +126,10 @@ section.bandeiras .txt-bandeiras {
     border-radius: 10px;
 }
 
+.img-bandeiras {
+    margin-top: 70px;
+}
+
 /*-------- Estilo Rodapé ---------*/
 
 footer {
