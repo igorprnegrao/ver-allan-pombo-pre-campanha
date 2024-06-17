@@ -74,11 +74,62 @@ form .btn-enviar input:hover {
     transform: scale(1.05);
 }
 
+/*-- Estilo do Bandeiras --*/
+
+section.bandeiras {
+    padding: 80px 4%;
+}
+
+section.bandeiras .flex {
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 60px;
+}
+
+section.bandeiras .txt-bandeiras {
+    color: #fff;
+}
+
+.bandeiras .txt-bandeiras h2 {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+
+.bandeiras .txt-bandeiras h2 span {
+    color: #fc6c04;
+}
+
+.bandeiras .txt-bandeiras ul {
+    list-style: none;
+}
+
+.txt-bandeiras ul li {
+    padding: 12px 0;
+    text-align: center;
+    background-color: rgba(0, 255, 0, 0.372);
+    margin: 5px 0;
+    border-radius: 20px;
+    color: #fff;
+    opacity: 0.8;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.txt-bandeiras ul li:hover {
+    box-shadow: 0px 0px 8px #fc6c04;
+    transform: scale(1.01);
+    background-color: #fc6c04;
+}
+
+#img-bandeiras {
+    border-radius: 10px;
+}
 
 /*-------- Estilo Rodapé ---------*/
 
 footer {
-padding: 60px 8%;
+    padding: 60px 8%;
     box-shadow: 0 0 40px 10 #ffffff1d;
     letter-spacing: 1px;
     background-color: #1717177c;
