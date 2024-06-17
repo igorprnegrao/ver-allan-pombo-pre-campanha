@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url("../images/bg02-site-allan.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.flex {
+    display: flex;
+}
+
+/*------  Estilo CABEÇALHO -----*/
+
+header {
+    padding: 30px 4%;
+}
+
+header .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav.menu-desktop ul li {
+    display: inline-block;
+    padding: 0 25px;
+}
+
+header nav.menu-desktop ul li a {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+header nav.menu-desktop a:hover {
+    transform: scale(1.2);
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.btn-contato button {
+    padding: 10px 40px;
+    font-weight: 600;
+    background-color: #fff;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+button:hover,
+form .btn-enviar input:hover {
+    box-shadow: 0px 0px 8px #fff;
+    transform: scale(1.05);
+}
+
+/*-- Estilo Casa Pombo --*/
+
+section.casa-pombo {
+    padding: 80px 4%;
+}
+
+section.casa-pombo .flex {
+    align-items: center;
+    gap: 60px;
+}
+
+section.casa-pombo .txt-casa-pombo {
+    color: #fff;
+}
+
+.casa-pombo .txt-casa-pombo h2 {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+
+.casa-pombo .txt-casa-pombo h2 span {
+    color: aqua;
+}
+
+.casa-pombo .txt-casa-pombo p {
+    margin: 20px 0;
+    text-align: justify;
+    line-height: 25px;
+    text-indent: 25px;
+}
+
+/*-------- Estilo Rodapé ---------*/
+
+footer {
+padding: 60px 8%;
+    box-shadow: 0 0 40px 10 #ffffff1d;
+    letter-spacing: 1px;
+    background-color: #1717177c;
+}
+
+footer .flex {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-conteudo .footer-logo-contato p {
+    color: #fff;
+}
+
+.footer-conteudo .footer-logo-contato h2 {
+    margin-bottom: 0.75rem;
+}
+
+.footer-social-midia {
+    display: flex;
+    gap: 1rem;
+    font-size: 30px;
+    margin-top: 1.5rem;
+}
+
+.footer-social-midia .footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: #fff;
+    border-radius: 50%;
+    transition: all 0.4s; /*tempo de transição hover*/
+}
+
+.footer-link {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer-social-midia .footer-link:hover {
+    opacity: 0.8;
+}
+
+#instagram {
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+#facebook {
+    background-color: #4267b3;
+}
+#whatsapp {
+    background-color: #25d366;
+}
+#x-twitter {
+    background-color: #000;
+}
+
+#tiktok {
+    background-color: #000;
+}
+
+#footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    list-style: none;
+}
+
+.footer-logo-img {
+    position: relative;
+    left: 40px;
+}
+
+#footer-list .footer-link {
+    color: #d9d9d9;
+    transition: all 0.4s; /*tempo de transição hover*/
+}
+
+#footer-list h3 {
+    color: #fff;
+}
+
+.titulo-h3 {
+    font-size: 23px;
+}
+
+.footer-logo-p {
+    color: #fff;
+    font-size: 16px;
+    position: relative;
+    left: 17px;
+}
+
+#footer-list .footer-link:hover {
+    color: #22a7f5;
+}
+
+#footer-copyright {
+    padding: 20px 0;
+    background-color: #000;
+}
+
+#footer-copyright p {
+    color: #fff;
+    text-align: center;
+}
