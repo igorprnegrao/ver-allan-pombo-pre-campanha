@@ -75,6 +75,38 @@ form .btn-enviar input:hover {
     transform: scale(1.05);
 }
 
+/*-------- Botão zap ---------*/
+
+.icon {
+    position: fixed;
+    bottom: 60px;
+    right: 30px;
+    font-size: 70px;
+    background-color: #01e675;
+    color: #fff;
+    border-radius: 50px;
+    padding: 3px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    text-decoration: none;
+    z-index:100;
+    box-shadow: 2px 2px 2px #c0bdbd;
+    top: 70px;
+    left: 1480px;
+}
+
+.icon .fab {
+    padding-top: 9px;
+}
+
+.icon:hover {
+    background-color: #fff;
+    color: #029e3b;
+    font-weight: 900;
+    box-shadow: 2px 2px 20px #5fe690;
+}
+
 /*------  faixa Manifesto -----*/
 
 .manifesto-titulo img {
