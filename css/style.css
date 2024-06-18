@@ -367,10 +367,32 @@ textarea[name="sua-mensagem"]{
     width: 100%;
 }
 
+.slide-wrapper .slider-button {
+    position: absolute;
+    top: 2020px;
+    color: #fff;
+    border: none;
+    outline: none;
+    background-color: black;
+    font-size: 2.2rem;
+    cursor: pointer;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+
+.slide-wrapper .slider-button#prev-slider {
+    left: 140px;
+}
+
+.slide-wrapper .slider-button#next-slider {
+    right: 150px;
+}
+
 .slide-wrapper .image-list {
     display: grid;
     gap: 18px;
     font-size: 0;
+    margin-bottom: 30px;
     overflow-x: auto;
     scrollbar-width: none;
     grid-template-columns: repeat(5, 1fr);
@@ -386,6 +408,52 @@ textarea[name="sua-mensagem"]{
     width: 400px;
     height: 400px;
     object-fit: cover;
+}
+
+.container-img .slider-scrollbar {
+    height: 20px;
+    width: 100%;
+    background-color: #fc6b044d;
+    display: flex;
+    align-items: center;
+}
+
+.slider-scrollbar .scrollbar-track {
+    height: 2px;
+    width: 100%;
+    background-color: #ccc ;
+    position: relative;
+    border-radius: 4px;
+}
+
+.slider-scrollbar:hover .scrollbar-track {
+    height: 5px;
+}
+
+
+
+.slider-scrollbar .scrollbar-thumb {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    background-color: black ;
+    border-radius: inherit;
+    cursor: grab;
+}
+
+.slider-scrollbar .scrollbar-track :active {
+    cursor: grabbing;
+    height: 8px;
+    top: -2px;
+}
+
+.slider-scrollbar .scrollbar-thumb::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -10px;
+    bottom: -10px;
 }
 
 
