@@ -360,102 +360,16 @@ textarea[name="sua-mensagem"]{
     opacity: 0.3;
 }
 
+/*-------- Estilo Galeria ---------*/
 
-/*Galeria*/
-.heading-1 {
-    font-size: 40px;
-    text-transform: uppercase;
-    margin-left: -48px;
-    color: #fff;
-}
-
-.heading-2 {
-    font-size: 40px;
-    line-height: 1.1;
-    margin-bottom: 20px;
-    color: #fff;
-}
-
-.heading-3 {
-    font-size: 20px;
-    text-transform: uppercase;
-    color: #fff;
-    margin-bottom: 10px;
-}
-
-.sub-heading {
-    font-size: 20px;
-    display: flex;
-    align-items: center;
-    margin-bottom: 30px;
-    border-bottom: 1px solid #fc6c04;
-    padding-bottom: 10px;
-    margin-left: -48px;
-}
-
-.sub-heading p {
-    font-weight: 700;
-    text-transform: capitalize;
-    margin-right: 10px;
-    color: #fff;
-}
-
-.sub-heading span {
-    color: #e6e6e6;
-    font-weight: 300;
-    border-right: 1px solid #ccc;
-    padding-right: 10px;
-}
-
-.sub-heading .importent {
-    color: #fc6c04;
-    text-transform: uppercase;
-    font-weight: 300;
-}
-
-/* HOME*/
-
-.home {
+.slide-wrapper .image-list {
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 40px;
+    grid-template-columns: repeat(5, 1fr);
 }
-
-.home {
-    color: white;
-}
-
-.home-image {
-    width: 100%;
-}
-
-.list {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    gap: 10px;
-    margin-bottom: 10px;
-}
-
-.list img {
-    width: 100%;
-    height: 80px;
-}
-
-/* Article*/
-
-article > p {
-    font-size: 20px;
-    margin-bottom: 20px;
-    
-}
-
-article {
-    display: grid;
-    grid-template-columns: 2fr;
-    columns: 2 25ch;
-    column-gap: 40px;
-    hyphens: auto;
-    color: white;
+.slide-wrapper .image-list .image-item {
+    width: 325px;
+    height: 400px;
+    object-fit: cover;
 }
 
 
