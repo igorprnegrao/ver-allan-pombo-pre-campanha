@@ -90,7 +90,7 @@ form .btn-enviar input:hover {
     height: 100px;
     text-align: center;
     text-decoration: none;
-    z-index:100;
+    
     box-shadow: 2px 2px 2px #c0bdbd;
     top: 70px;
     left: 1480px;
@@ -100,12 +100,24 @@ form .btn-enviar input:hover {
     padding-top: 9px;
 }
 
-.icon:hover {
-    background-color: #fff;
-    color: #029e3b;
-    font-weight: 900;
-    box-shadow: 2px 2px 20px #5fe690;
+
+
+.h2-icon {
+    font-size: 16px;
+    margin-top: -60px;
+    color: #fff;
+    background-color: #01e675;
+    border-radius: 20px;
+    z-index: -1;
+    width: 120px;
+    margin-left: -101px;
+    padding: 5px;
+    
 }
+
+
+
+
 
 /*------  faixa Manifesto -----*/
 
