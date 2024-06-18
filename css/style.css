@@ -367,9 +367,13 @@ textarea[name="sua-mensagem"]{
     width: 100%;
 }
 
+.slide-wrapper {
+    position: relative;
+}
+
 .slide-wrapper .slider-button {
     position: absolute;
-    top: 2020px;
+    top: 50%;
     color: #fff;
     border: none;
     outline: none;
@@ -380,12 +384,16 @@ textarea[name="sua-mensagem"]{
     transform: translateY(-50%);
 }
 
+.slide-wrapper .slider-button:hover {
+    background-color: #fc6c04;
+}
+
 .slide-wrapper .slider-button#prev-slider {
-    left: 140px;
+    left: -20px;
 }
 
 .slide-wrapper .slider-button#next-slider {
-    right: 150px;
+    right: -20px;
 }
 
 .slide-wrapper .image-list {
