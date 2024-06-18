@@ -365,11 +365,26 @@ textarea[name="sua-mensagem"]{
 .container-img {
     max-width: 1260px;
     width: 100%;
+    margin-bottom: 100px;
 }
 
 .slide-wrapper {
     position: relative;
 }
+
+.heading-1 {
+    font-size: 40px;
+    line-height: 60px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-left: -50px;
+    color: #fff;
+}
+
+.heading-1 span {
+    color: #fc6c04;
+}
+
 
 .slide-wrapper .slider-button {
     position: absolute;
