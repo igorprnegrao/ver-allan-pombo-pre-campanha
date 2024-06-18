@@ -41,3 +41,4 @@ const manipularEnviar = (event) => {
 
 // Capturar o evento de submit(enviar) e ativar a função manipularEviar
 document.querySelector("form").addEventListener("submit", manipularEnviar);
+
