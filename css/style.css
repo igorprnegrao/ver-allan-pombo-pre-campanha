@@ -90,10 +90,10 @@ form .btn-enviar input:hover {
     height: 100px;
     text-align: center;
     text-decoration: none;
-    
     box-shadow: 2px 2px 2px #c0bdbd;
-    top: 70px;
+    top: 100px;
     left: 1480px;
+    z-index: 100;
 }
 
 .icon .fab {
@@ -108,7 +108,7 @@ form .btn-enviar input:hover {
     color: #fff;
     background-color: #01e675;
     border-radius: 20px;
-    z-index: -1;
+    
     width: 120px;
     margin-left: -101px;
     padding: 5px;
