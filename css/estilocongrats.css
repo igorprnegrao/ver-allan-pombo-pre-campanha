@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+    font-size: 18px;
+}
+
+body {
+    background-image: url('../images/bg02-site-allan.png');
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: bisque;
+}
+
+a > span {
+    color: rgb(255, 70, 3);
+    font-weight: 700;
+}
+
+@media screen and (max-width: 1064px) {
+    h1 {
+        font-size: 28px;
+        margin-left: 50px;
+    }
+}
