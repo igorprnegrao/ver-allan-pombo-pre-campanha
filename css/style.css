@@ -362,15 +362,26 @@ textarea[name="sua-mensagem"]{
 
 /*-------- Estilo Galeria ---------*/
 
+.container-img {
+    max-width: 1260px;
+    width: 100%;
+}
+
 .slide-wrapper .image-list {
     display: grid;
+    gap: 18px;
+    font-size: 0;
+    overflow-x: auto;
     grid-template-columns: repeat(5, 1fr);
+    
 }
 .slide-wrapper .image-list .image-item {
     width: 325px;
     height: 400px;
     object-fit: cover;
 }
+
+
 
 
 /*-------- Estilo Rodapé ---------*/
