@@ -56,6 +56,7 @@ header nav.menu-desktop a:hover {
     transform: scale(1.2);
     display: inline-block;
     transition: 0.3s;
+    color: #fc6c04;
 }
 
 .btn-contato button {
@@ -70,7 +71,7 @@ header nav.menu-desktop a:hover {
 
 button:hover,
 form .btn-enviar input:hover {
-    box-shadow: 0px 0px 8px #fff;
+    box-shadow: 0px 0px 25px #fc6c04;
     transform: scale(1.05);
 }
 
@@ -207,6 +208,7 @@ form .btn-enviar {
     padding: auto;
 }
 
+
 form .btn-enviar input[type="submit"] {
     width: 120px;
     background-color: #fff;
@@ -216,6 +218,7 @@ form .btn-enviar input[type="submit"] {
     transition: 0.2s;
     height: 70px;
     width: 150px;
+    
     margin-bottom: 50px;
 }
 
@@ -223,25 +226,49 @@ form .btn-enviar input[type="submit"] {
     align-items: left;
 }
 
-.btn-enviar {
-    position: relative;
-    left: 250px;
+#btn-enviar {
+    width: 120px;
+    margin-left: 632px;
+    color: #fff;
+    background-color: #1caa50;
+    margin-top: -40px;
+}
+
+#btn-enviar:hover {
+    background-color: #fc6c04;
+    transform: scale(1)translateY(-2px);
+    box-shadow: 0 0 25px #fc6c04;
+}
+
+label {
+    font-size: 19px;
+    color: #eeeeee;
+}
+
+#checkbox1 {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+#caixa-text {
+    margin-bottom: 20px;
 }
 
 input[type="text"]{
-    background-color: rgba(0, 255, 0, 0.372);
+    background-color: rgba(0, 255, 0, 0.179);
     color:white;
     border: 2px solid #fff;
 }
 
 input[type="number"]{
-    background-color: rgba(0, 255, 0, 0.372);
+    background-color: rgba(0, 255, 0, 0.179);
     color: white;
     border: 2px solid #fff;
 }
 
-textarea[name="message"]{
-    background-color: rgba(0, 255, 0, 0.372);
+textarea[name="sua-mensagem"]{
+    background-color: rgba(0, 255, 0, 0.179);
     color:white;
     border: 2px solid #fff;
 }
@@ -254,8 +281,9 @@ textarea[name="message"]{
 .quem-assinou {
     border: 2px solid #fff;
     width: 450px;
-    height: 490px;
+    height: 505px;
     margin-left: 200px;
+    border-radius: 20px;
 }
 
 .quem-assinou h2 {
@@ -263,6 +291,7 @@ textarea[name="message"]{
     margin-left: 30px;
     left: 20px;
     top: 30px;
+    
 }
 
 .quem-assinou h2 {

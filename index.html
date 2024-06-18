@@ -81,14 +81,17 @@
                 <div class="flex">
                     <div>
                     <h2 class="titulo">ASSINE ABAIXO <span>O MANIFESTO</span></h2>
-                    <form class="formulario-campos" target="_blank" action="https://formsubmit.co/neurocientista@gmail.com" method="POST">
-                        <input type="text" name="name" placeholder="Seu nome:" required>
-                        <input type="text" name="bairro" placeholder="Seu Bairro:" required>
-                        <input type="number" name="number" placeholder="Seu whatsapp:">
-                        <textarea name="message" placeholder="Sua mensagem:"></textarea>
-                        <div class="btn-enviar">
-                            <input type="submit" value="Enviar">
-                        </div>
+                    <form #form>
+                        <input type="text" name="seu-nome" placeholder="Seu Nome" required>
+                        <input type="text" name="seu-numero" placeholder="Seu Whatsapp" required>
+                        <input type="text" name="seu-bairro" placeholder="Seu Bairro" required>
+                        <textarea name="sua-mensagem" rows="7" placeholder="Sua Mensagem" id="caixa-text"></textarea>
+                        
+                        <label for="checkbox1" class="label1"> 
+                            <input type="checkbox" id="checkbox1" name="sua-autorizacao" value="">
+                            Aceito receber informações do Vereador Allan Pombo no Whatsapp.      
+                        </label>
+                        <input type="submit" value="Enviar" id="btn-enviar" id="submit">
                     </form>
                     </div>
                     <div class="quem-assinou">
