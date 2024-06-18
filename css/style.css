@@ -372,14 +372,22 @@ textarea[name="sua-mensagem"]{
     gap: 18px;
     font-size: 0;
     overflow-x: auto;
+    scrollbar-width: none;
     grid-template-columns: repeat(5, 1fr);
     
 }
+
+.slide-wrapper .image-list::-webkit-scrollbar {
+    display: none;
+}
+
+
 .slide-wrapper .image-list .image-item {
-    width: 325px;
+    width: 400px;
     height: 400px;
     object-fit: cover;
 }
+
 
 
 
