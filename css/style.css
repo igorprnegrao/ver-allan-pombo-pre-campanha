@@ -390,6 +390,7 @@ textarea[name="sua-mensagem"]{
 
 .slide-wrapper .slider-button#prev-slider {
     left: -20px;
+    display: none;
 }
 
 .slide-wrapper .slider-button#next-slider {

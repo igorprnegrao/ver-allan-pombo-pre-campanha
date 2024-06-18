@@ -42,3 +42,36 @@ const manipularEnviar = (event) => {
 // Capturar o evento de submit(enviar) e ativar a função manipularEviar
 document.querySelector("form").addEventListener("submit", manipularEnviar);
 
+const initSlider = () => {
+    const imageList = document.querySelector('.slide-wrapper .image-list');
+    const slideButtons = document.querySelectorAll(".slide-wrapper .slider-button")
+    const slideScrollBar = document.querySelector(".container-img .slider-scrollbar")
+    const scrollBarThumb = slideScrollBar.querySelector(".scrollbar-thumb")
+    const maxScrollLeft = imageList.scrollWidth - imageList.clientWidth;
+
+    slideButtons.forEach(button => {
+      button.addEventListener("click", () => {
+        const direction = button.id === "prev-slider" ? -1 : 1;
+        const scrollAmount =  imageList.clientWidth * direction
+        imageList.scrollBy({left: scrollAmount, behavior:"smooth"  })
+      })
+    })
+
+    const handleSlideButton = () => {
+      slideButtons[0].style.display = imageList.scrollLeft <= 0 ? "none" : "block";
+      slideButtons[1].style.display = imageList.scrollLeft >= maxScrollLeft ? "none" : "block";
+    }
+
+    const updateScrollThumbPosition = () => {
+      const scrollPosition = imageList.scrollLeft;
+      const thumbPosition =  (scrollPosition / maxScrollLeft) * (slideScrollBar.clientWidth - scrollBarThumb.offsetWidth);
+      scrollBarThumb.style.left = `${thumbPosition}px`;
+    }
+
+    imageList.addEventListener("scroll", () => {
+      handleSlideButton();
+      updateScrollThumbPosition();
+    })
+}
+
+window.addEventListener("load", initSlider);
