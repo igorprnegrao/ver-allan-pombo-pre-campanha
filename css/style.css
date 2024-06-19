@@ -83,7 +83,7 @@ form .btn-enviar input:hover {
     bottom: 60px;
     right: 30px;
     font-size: 70px;
-    background-color: #01e675;
+    background-color: #01e6737e;
     color: #fff;
     border-radius: 50px;
     padding: 3px;
@@ -105,11 +105,12 @@ form .btn-enviar input:hover {
     font-size: 16px;
     margin-top: -60px;
     color: #fff;
-    background-color: #01e675;
+    background-color: #01e6737e;
     border-radius: 20px;
     width: 120px;
     margin-left: -101px;
     padding: 5px;
+    display: none;
 }
 
 
@@ -814,12 +815,13 @@ footer .flex {
     }
     /*--- ZAP ---*/
     .icon {
-        left: 350px;
+        left: 265px;
         font-size: 35px;
         width: 60px;
         height: 60px;
         top: 300px;
     }
+    
 
     .icon .fab {
         padding-top: 10px;
@@ -876,7 +878,7 @@ footer .flex {
     }
 
     label {
-        font-size: 20px;
+        font-size: 19px;
         width: 250px;
         margin-left: 10px;
     }
@@ -885,7 +887,7 @@ footer .flex {
         margin-top: 15px;
         margin-left: 1px;
         margin-bottom: 30px;
-        width: 300px;
+        width: 290px;
         display: block;
     }
 
