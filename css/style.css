@@ -847,6 +847,40 @@ footer .flex {
         width: 380px;
         margin-left: 29px;
     }
+
+    .list-item__email {
+        font-size: 18px;
+    }
+
+    /*--- GALERIA ---*/
+
+    .container-img {
+        width: 100%;
+        max-width: 390px;
+        margin-left: 20px;
+    }
+
+    .slide-wrapper {
+        box-shadow: 0 0 25px #fc6c04;
+    }
+
+    .heading-1 {
+        font-size: 30px;
+        margin-left: -10px;
+        line-height: 40px;
+    }
+    
+    /*--- FOOTER ---*/
+
+    footer .flex {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    footer .line-footer {
+        text-align: center;
+    }
+
     
 }
 
