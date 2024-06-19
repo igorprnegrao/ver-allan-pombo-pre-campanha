@@ -851,14 +851,15 @@ footer .flex {
 
     label {
         font-size: 20px;
-        width: 400px;
+        width: 380px;
+        margin-left: 10px;
     }
 
     #btn-enviar {
         margin-top: 15px;
         margin-left: 1px;
         margin-bottom: 30px;
-        width: 380px;
+        width: 370px;
         display: block;
     }
 
