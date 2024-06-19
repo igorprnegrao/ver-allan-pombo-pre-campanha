@@ -840,6 +840,13 @@ footer .flex {
         width: 380px;
         display: block;
     }
+
+    /*--- ASSINATURAS ---*/
+
+    .quem-assinou {
+        width: 380px;
+        margin-left: 29px;
+    }
     
 }
 
