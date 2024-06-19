@@ -815,6 +815,10 @@ footer .flex {
 
     /*--- MANIFESTO ---*/
 
+    .section.principal {
+        width: 100%;
+    }
+    
     .manifesto-titulo img {
     align-items: center;
     width: 200px;
