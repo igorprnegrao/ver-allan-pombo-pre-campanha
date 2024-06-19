@@ -735,7 +735,7 @@ footer .flex {
     /*--- mobile ---*/
 
     .menu-mobile {
-        background-color: rgb(5, 151, 5);
+        background-color: rgb(3, 127, 3);
         height: 100vh;
         position: fixed;
         top: 0;
@@ -752,14 +752,14 @@ footer .flex {
     }
     .menu-mobile nav ul li a {
         display: block; /* 2 none aqui */
-        color: #000;
+        color: #fc6c04;
         font-size: 20px;
         font-weight: 300;
         padding: 20px 8%;
     }
 
     .menu-mobile nav ul li a:hover {
-        background-color: #00ff08;
+        background-color: #ffffffa4;
         color: #000;
         display: block;
     }
@@ -790,6 +790,7 @@ footer .flex {
 
     /*--- MANIFESTO ---*/
 
+    
     
 }
 
