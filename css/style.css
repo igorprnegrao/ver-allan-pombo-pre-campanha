@@ -92,7 +92,7 @@ form .btn-enviar input:hover {
     text-decoration: none;
     box-shadow: 2px 2px 2px #c0bdbd;
     top: 200px;
-    left: 1480px;
+    left: 1400px;
     z-index: 100;
 }
 
@@ -794,7 +794,7 @@ footer .flex {
     .menu-mobile.abrir-menu ~ .overlay-menu {
         display: block; /*  4 none aqui */
     }
-     /*--- ZAP ---*/
+    /*--- ZAP ---*/
     .icon {
         left: 350px;
         font-size: 35px;
