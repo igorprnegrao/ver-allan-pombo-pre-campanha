@@ -731,7 +731,7 @@ footer .flex {
     body {
         width: 100vw;
     }
-    
+
     /*--- Cabeçalho ---*/
     .menu-desktop,
     .btn-contato {
@@ -878,7 +878,7 @@ footer .flex {
     /*--- FOOTER ---*/
 
     footer {
-        padding: 50px 8%;
+        padding: 50px 0;
         width: 100%;
     }
     
