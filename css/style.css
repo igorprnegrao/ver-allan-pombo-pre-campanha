@@ -606,9 +606,9 @@ textarea[name="sua-mensagem"]{
 
 /*-------- Estilo Rodapé ---------*/
 
-footer {
+footer  {
 padding: 60px 8%;
-    box-shadow: 0 0 40px 10 #ffffff1d;
+    box-shadow: 0 0 40px 10px #ffffff1d;
     letter-spacing: 1px;
     background-color: #1717177c;
 }
@@ -921,30 +921,36 @@ footer .flex {
     /*--- FOOTER ---*/
 
     footer {
-        padding: 50px 0;
-        width: 100%;
+        padding: 50px 0%;
+        box-shadow: 0 0 40px 10px #ffffff1d;
+        
     }
     
     footer .flex {
         flex-direction: column;
         gap: 30px;
+        
     }
 
     .footer-logo-img {
         margin-top: -20px;
+        
     }
 
     footer .line-footer {
         text-align: center;
+        
     }
 
     footer .footer-localidade .titulo-h3 {
         text-align: left;
         margin-left: -61px;
+        
     }
 
     footer .footer-localidade #footer-list .footer-link {
         margin-left: -61px;
+        
     }
 
 
