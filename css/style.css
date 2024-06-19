@@ -872,14 +872,33 @@ footer .flex {
     
     /*--- FOOTER ---*/
 
+    footer {
+        padding: 50px 8%;
+    }
+    
     footer .flex {
         flex-direction: column;
         gap: 30px;
     }
 
+    .footer-logo-img {
+        margin-top: -20px;
+    }
+
     footer .line-footer {
         text-align: center;
     }
+
+    footer .footer-localidade .titulo-h3 {
+        text-align: left;
+        margin-left: -65px;
+    }
+
+    footer .footer-localidade #footer-list .footer-link {
+        margin-left: -65px;
+    }
+
+
 
     
 }
