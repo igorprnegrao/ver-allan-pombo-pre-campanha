@@ -730,7 +730,11 @@ footer .flex {
     /*--- Cabeçalho ---*/
     .menu-desktop,
     .btn-contato {
-    display: none;
+        display: none;
+    }
+
+    .logo img {
+        width: 150px;
     }
     /*--- mobile ---*/
 
@@ -790,7 +794,7 @@ footer .flex {
 
     /*--- MANIFESTO ---*/
 
-    
+
     
 }
 
