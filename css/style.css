@@ -100,8 +100,6 @@ form .btn-enviar input:hover {
     padding-top: 9px;
 }
 
-
-
 .h2-icon {
     font-size: 16px;
     margin-top: -60px;
@@ -720,5 +718,79 @@ footer .flex {
 }
 
 @media screen and (max-width: 1020px){
+    /*--- GERAL---*/
+
+    .flex {
+    flex-direction: column;
+    }
+
+    .principal-manifesto .flex {
+    flex-direction: column-reverse;
+    }
+    /*--- Cabeçalho ---*/
+    .menu-desktop,
+    .btn-contato {
+    display: none;
+    }
+    /*--- mobile ---*/
+
+    .menu-mobile {
+        background-color: rgb(5, 151, 5);
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 99999;
+        width: 0%;
+        overflow: hidden;
+        transition: 0.4s;
+        display: block; /* 1 none aqui */
+    }
+
+    .menu-mobile nav ul {
+        text-align: right;
+    }
+    .menu-mobile nav ul li a {
+        display: block; /* 2 none aqui */
+        color: #000;
+        font-size: 20px;
+        font-weight: 300;
+        padding: 20px 8%;
+    }
+
+    .menu-mobile nav ul li a:hover {
+        background-color: #00ff08;
+        color: #000;
+        display: block;
+    }
+
+    .menu-mobile .btn-fechar i {
+        color: #fc6c04;
+        font-size: 30px;
+    }
+
+    .btn-fechar {
+        padding: 20px 5%;
+    }
+
+    .btn-abrir-mobile i {
+        color: #fc6c04;
+        font-size: 40px;
+        display: block; /*  2 none aqui */
+    }
+
+    .menu-mobile.abrir-menu {
+        width: 70%;
+        display: block;
+    }
+
+    .menu-mobile.abrir-menu ~ .overlay-menu {
+        display: block; /*  4 none aqui */
+    }
+
+    /*--- MANIFESTO ---*/
+
     
 }
+
+
