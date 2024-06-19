@@ -747,10 +747,10 @@ footer .flex {
 
     .menu-mobile {
         background-color: rgb(3, 127, 3);
-        height: 100vh;
+        height: 100%;
         position: fixed;
         top: 0;
-        right: 0px;
+        right: -10px;
         z-index: 99999;
         width: 0%;
         overflow: hidden;
@@ -814,7 +814,7 @@ footer .flex {
     }
     /*--- ZAP ---*/
     .icon {
-        left: 300px;
+        left: 350px;
         font-size: 35px;
         width: 60px;
         height: 60px;
@@ -870,14 +870,14 @@ footer .flex {
     }   
     
     form {
-        max-width: 250px;
+        max-width: 200px;
         justify-content: center;
         margin-left: 30px;
     }
 
     label {
         font-size: 20px;
-        width: 380px;
+        width: 250px;
         margin-left: 10px;
     }
 
@@ -885,14 +885,14 @@ footer .flex {
         margin-top: 15px;
         margin-left: 1px;
         margin-bottom: 30px;
-        width: 370px;
+        width: 300px;
         display: block;
     }
 
     /*--- ASSINATURAS ---*/
 
     .quem-assinou {
-        width: 380px;
+        width: 310px;
         margin-left: 29px;
     }
 
@@ -904,7 +904,7 @@ footer .flex {
 
     .container-img {
         width: 100%;
-        max-width: 390px;
+        max-width: 320px;
         margin-left: 20px;
     }
 
@@ -921,7 +921,7 @@ footer .flex {
     /*--- FOOTER ---*/
 
     footer {
-        padding: 50px 0%;
+        padding: 50px 4%;
         box-shadow: 0 0 40px 10px #ffffff1d;
         
     }
