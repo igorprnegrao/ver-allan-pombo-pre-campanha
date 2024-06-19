@@ -79,9 +79,10 @@ form .btn-enviar input:hover {
 /*-------- Botão zap ---------*/
 
 .icon {
-    position: fixed;
+    
     bottom: 60px;
-    right: 30px;
+    right: 100px;
+    position: fixed;
     font-size: 70px;
     background-color: #01e6737e;
     color: #fff;
@@ -93,7 +94,7 @@ form .btn-enviar input:hover {
     text-decoration: none;
     box-shadow: 2px 2px 2px #c0bdbd;
     top: 200px;
-    left: 1400px;
+    
     z-index: 100;
 }
 
@@ -815,7 +816,8 @@ footer .flex {
     }
     /*--- ZAP ---*/
     .icon {
-        left: 265px;
+        
+        right: 2rem;
         font-size: 35px;
         width: 60px;
         height: 60px;
@@ -838,7 +840,7 @@ footer .flex {
     
     .manifesto {
         background-color: #1717177c;
-        padding: 20px 0;
+        padding: 1.25rem 0;
         margin:auto 0;
         width: 100vw;
     }
@@ -846,7 +848,7 @@ footer .flex {
     .manifesto-titulo img {
     align-items: center;
     width: 200px;
-    margin-left: 100px;
+    margin-left: 6.25rem;
     }
 
     section.principal-manifesto .flex {
