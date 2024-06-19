@@ -106,11 +106,9 @@ form .btn-enviar input:hover {
     color: #fff;
     background-color: #01e675;
     border-radius: 20px;
-    
     width: 120px;
     margin-left: -101px;
     padding: 5px;
-    
 }
 
 
@@ -795,6 +793,23 @@ footer .flex {
 
     .menu-mobile.abrir-menu ~ .overlay-menu {
         display: block; /*  4 none aqui */
+    }
+     /*--- ZAP ---*/
+    .icon {
+        left: 350px;
+        font-size: 35px;
+        width: 60px;
+        height: 60px;
+        top: 300px;
+    }
+
+    .icon .fab {
+    padding-top: 10px;
+    }
+
+    .h2-icon {
+        font-size: 15px;
+        margin-top: -44px;
     }
 
     /*--- MANIFESTO ---*/
