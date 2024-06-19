@@ -727,6 +727,11 @@ footer .flex {
     .principal-manifesto .flex {
     flex-direction: column-reverse;
     }
+
+    body {
+        width: 100vw;
+    }
+    
     /*--- Cabeçalho ---*/
     .menu-desktop,
     .btn-contato {
@@ -874,6 +879,7 @@ footer .flex {
 
     footer {
         padding: 50px 8%;
+        width: 100%;
     }
     
     footer .flex {
