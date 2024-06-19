@@ -716,7 +716,7 @@ footer .flex {
     text-align: center;
 }
 
-@media screen and (max-width: 1220px){
+@media screen and (max-width: 1020px){
     /*--- GERAL---*/
 
     .flex {
