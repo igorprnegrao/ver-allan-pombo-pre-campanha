@@ -732,6 +732,9 @@ footer .flex {
         margin: auto;
     }
 
+    section.sobre-mim 
+    section.sobre-mim .flex
+
     /*--- Cabeçalho ---*/
     .menu-desktop,
     .btn-contato {
@@ -768,7 +771,6 @@ footer .flex {
         font-size: 20px;
         font-weight: 400;
         padding: 20px 8%;
-        
     }
 
     .menu-mobile nav ul li a:hover {
@@ -781,7 +783,6 @@ footer .flex {
     .menu-mobile .btn-fechar i {
         color: #fc6c04;
         font-size: 30px;
-        
     }
 
     .btn-fechar {
@@ -794,19 +795,15 @@ footer .flex {
         left: -25px;
         display: block; /*  2 none aqui */
         position: relative;
-        
     }
 
     .menu-mobile.abrir-menu {
         width: 70%;
         display: block;
-        
-        
     }
 
     .menu-mobile.abrir-menu ~ .overlay-menu {
         display: block; /*  4 none aqui */
-        
     }
 
     .btn-abrir-menu i {
@@ -822,7 +819,6 @@ footer .flex {
         top: 300px;
     }
     
-
     .icon .fab {
         padding-top: 10px;
     }
