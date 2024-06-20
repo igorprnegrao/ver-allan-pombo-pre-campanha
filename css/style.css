@@ -243,7 +243,7 @@ section.principal-manifesto .manifesto-text p {
 }
 
 section.principal-manifesto .manifesto-img img {
-    width: 500px;
+    width: auto;
 }
 
 /*-------- Estilo Formulario ---------*/
@@ -728,7 +728,6 @@ footer .flex {
         flex-direction: column-reverse;
     }
 
-    
 
     section.sobre-mim 
     section.sobre-mim .flex
