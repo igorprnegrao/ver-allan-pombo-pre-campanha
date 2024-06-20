@@ -835,8 +835,6 @@ footer .flex {
 
     /*--- MANIFESTO ---*/
 
-    
-    
     .manifesto {
         background-color: #1717177c;
         padding: 1.25rem 0;
@@ -845,9 +843,9 @@ footer .flex {
     }
     
     .manifesto-titulo img {
-    align-items: center;
-    width: 200px;
-    margin-left: 6.25rem;
+        align-items: center;
+        width: 200px;
+        margin-left: 6.25rem;
     }
 
     section.principal-manifesto .flex {
