@@ -346,7 +346,12 @@ footer .flex {
     }
 
     section.sobre-mim .flex {
-        flex-direction: column-reverse;
+        flex-direction: column;
+    }
+
+    header {
+    padding: 30px 4%;
+    margin-bottom: -20px;
     }
 
     body {
@@ -445,6 +450,18 @@ footer .flex {
     .h2-icon {
         font-size: 15px;
         margin-top: -44px;
+    }
+
+    /*---Sobre Mim---*/
+
+    #img-sobre-mim {
+        width: 300px;
+        margin-top: -20px;
+        margin-bottom: -20px;
+    }
+
+    section.sobre-mim .flex {
+        gap: 10px;
     }
 
     /*--- FOOTER ---*/
