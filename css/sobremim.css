@@ -77,7 +77,6 @@ form .btn-enviar input:hover {
 /*-------- Botão zap ---------*/
 
 .icon {
-    
     bottom: 60px;
     right: 100px;
     position: fixed;
@@ -92,7 +91,6 @@ form .btn-enviar input:hover {
     text-decoration: none;
     box-shadow: 2px 2px 2px #c0bdbd;
     top: 200px;
-    
     z-index: 100;
 }
 
@@ -367,7 +365,7 @@ footer .flex {
         padding-right: -30px;
     }
 
-     /*--- mobile ---*/
+    /*--- mobile ---*/
 
     .menu-mobile {
         background-color: rgb(3, 127, 3);
@@ -456,7 +454,7 @@ footer .flex {
         margin-top: -44px;
     }
 
-    *--- FOOTER ---*/
+    /*--- FOOTER ---*/
 
     footer {
         padding: 50px 4%;
