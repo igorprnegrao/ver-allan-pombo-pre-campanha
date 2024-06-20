@@ -909,7 +909,7 @@ footer .flex {
     .container-img {
         width: 100%;
         max-width: 320px;
-        margin-left: 20px;
+        margin-left: 2rem;
     }
 
     .slide-wrapper {
@@ -917,8 +917,8 @@ footer .flex {
     }
 
     .heading-1 {
-        font-size: 30px;
-        margin-left: -10px;
+        font-size: 25px;
+        margin-left: -0.625rem;
         line-height: 40px;
     }
     
