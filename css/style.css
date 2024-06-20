@@ -728,10 +728,7 @@ footer .flex {
         flex-direction: column-reverse;
     }
 
-    body {
-        width: 100vw;
-        margin: auto;
-    }
+    
 
     section.sobre-mim 
     section.sobre-mim .flex
