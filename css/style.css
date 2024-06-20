@@ -858,6 +858,11 @@ footer .flex {
     .manifesto-text h2 {
         font-size: 35px;
         margin-left: 10px;
+        
+    }
+
+    section.principal-manifesto .manifesto-text p {
+        padding: 0 0.5rem;
     }
 
     section.principal-manifesto .manifesto-img img {
@@ -870,13 +875,13 @@ footer .flex {
 
     section.formulario .titulo {
         font-size: 35px;
-        margin-left: 27px;
+        margin-left: 2.5rem;
     }   
     
     form {
         max-width: 200px;
         justify-content: center;
-        margin-left: 30px;
+        margin-left: 2.5rem;
     }
 
     label {
@@ -887,7 +892,7 @@ footer .flex {
 
     #btn-enviar {
         margin-top: 15px;
-        margin-left: 1px;
+        margin-left: 0.5rem;
         margin-bottom: 30px;
         width: 290px;
         display: block;
@@ -897,7 +902,7 @@ footer .flex {
 
     .quem-assinou {
         width: 310px;
-        margin-left: 29px;
+        margin-left: 2.5rem;
     }
 
     .list-item__email {
@@ -909,7 +914,7 @@ footer .flex {
     .container-img {
         width: 100%;
         max-width: 320px;
-        margin-left: 2rem;
+        margin-left: 2.5rem;
     }
 
     .slide-wrapper {
