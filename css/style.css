@@ -728,7 +728,6 @@ footer .flex {
         flex-direction: column-reverse;
     }
 
-
     section.sobre-mim 
     section.sobre-mim .flex
 
@@ -738,7 +737,6 @@ footer .flex {
         display: none;
     }
     
-
     .logo img {
         width: 150px;
         padding-right: -30px;
