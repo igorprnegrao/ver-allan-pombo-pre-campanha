@@ -753,7 +753,7 @@ footer .flex {
         position: fixed;
         top: 0;
         right: -10px;
-        z-index: 99999;
+        z-index: 200;
         width: 0%;
         overflow: hidden;
         transition: 0.4s;
