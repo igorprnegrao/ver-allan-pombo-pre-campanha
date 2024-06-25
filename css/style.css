@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url("../images/bg-site-allan.jpg");
+    background-image: url("../images/bg02-site-allan.png");
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -121,7 +121,7 @@ form .btn-enviar input:hover {
     position: fixed;
     top: 0;
     right: 0;
-    z-index: 200;
+    z-index: 99999;
     width: 0%;
     overflow: hidden;
     transition: 0.4s;
@@ -176,7 +176,7 @@ form .btn-enviar input:hover {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 250;
+    z-index: 88888;
     display: none;
     transition: 0.2s;
     display: none; /* 3 none aqui */
@@ -728,6 +728,7 @@ footer .flex {
         flex-direction: column-reverse;
     }
 
+
     section.sobre-mim 
     section.sobre-mim .flex
 
@@ -737,6 +738,7 @@ footer .flex {
         display: none;
     }
     
+
     .logo img {
         width: 150px;
         padding-right: -30px;
@@ -753,7 +755,7 @@ footer .flex {
         position: fixed;
         top: 0;
         right: -10px;
-        z-index: 200;
+        z-index: 99999;
         width: 0%;
         overflow: hidden;
         transition: 0.4s;
@@ -764,7 +766,6 @@ footer .flex {
         text-align: right;
         margin-right: 20px;
     }
-
     .menu-mobile nav ul li a {
         display: block; /* 2 none aqui */
         color: #fc6c04;
@@ -777,6 +778,7 @@ footer .flex {
         background-color: #ffffffa4;
         color: #000;
         display: block;
+        
     }
 
     .menu-mobile .btn-fechar i {
