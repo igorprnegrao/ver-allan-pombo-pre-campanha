@@ -11,7 +11,6 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
-    height: 100vh;
 }
 
 .interface {
@@ -722,8 +721,10 @@ footer .flex {
     }
 
     body {
-        width: 100vw;
-        margin: auto;
+        background-image: url("../images/bg03-site-allan-mobile.jpg");
+        background-size: contain;
+        background-attachment: fixed;
+        background-repeat: repeat;
         
     }
 
