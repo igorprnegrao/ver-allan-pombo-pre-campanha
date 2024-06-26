@@ -8,7 +8,7 @@
 body {
     background-image: url("../images/bg02-site-allan.png");
     background-size: cover;
-    background-attachment: fixed;
+    
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -722,10 +722,8 @@ footer .flex {
 
     body {
         background-image: url("../images/bg03-site-allan-mobile.jpg");
-        background-size: contain;
-        background-attachment: fixed;
-        background-repeat: repeat;
-        
+        background-size: cover;
+        background-repeat: repeat-y;
     }
 
 
