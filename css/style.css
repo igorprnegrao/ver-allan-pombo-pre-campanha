@@ -722,12 +722,9 @@ footer .flex {
     }
 
     body {
-        background-image: url("../images/bg02-site-allan.png");
-        background-size: cover;
-        background-attachment: fixed;
+        background-attachment: none;
         background-repeat: repeat;
-        height: 100%;
-    
+        height: 50%
 }
 
 
