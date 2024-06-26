@@ -721,13 +721,7 @@ footer .flex {
         flex-direction: column-reverse;
     }
 
-    body {
-        background-image: url("../images/bg02-site-allan.png");
-        background-size: cover;
-        background-attachment: fixed;
-        background-repeat: repeat;
-    
-    }
+  
 
 
     section.sobre-mim 
